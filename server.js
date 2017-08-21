@@ -10,7 +10,7 @@ var T = new Twit(config);
 
 
 
-var bot = ['2:00 AM']; 
+var bot = ['Its 2:15 AM']; 
 
 var bot = bot[Math.floor(Math.random() * bot.length)];
 var post = function () {
@@ -29,7 +29,7 @@ console.log('success');
 var ontime = require('ontime')
 
 ontime({
-    cycle: '2:00:00'
+    cycle: '2:15:00'
 }, function (ot) {
     // do your job here
 
