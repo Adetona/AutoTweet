@@ -1,3 +1,17 @@
+
+
+/*
+
+Configure Twitter API KEY. 
+
+Replace all these values with the values given to you when creating your app. 
+
+You can create your own Twitter App here: https://apps.twitter.com/app/new
+
+
+*/ 
+
+
 var config = {
   consumer_key:         '65EmpGTOKXXkjHR9tI5Jiio01',
   consumer_secret:      'FZ0lYU5dUJA4YTuqPtZ4q5NfXLbXFuz4E9xgA49ij6Tc8YAcol',
@@ -7,4 +21,4 @@ var config = {
 
 }
 
-module.exports = config;
+module.exports = config; 

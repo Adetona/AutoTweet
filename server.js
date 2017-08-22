@@ -1,66 +1,60 @@
-var Twit = require('twit')
 
-var fs = require('fs'),
-    path = require('path'),
-    Twit = require('twit'),
+	var Twit = require('twit')
 
-    config = require(path.join(__dirname, 'config.js'));
+	var fs = require('fs'),
+		path = require('path'),
+		Twit = require('twit'),
 
-var T = new Twit(config);
-
-
-
-var bot = ['5:00 AM']; 
-
-var bot = bot[Math.floor(Math.random() * bot.length)];
-var post = function () {
-
-T.post('statuses/update', { status: bot }, function(err, data, response) {
-
-console.log('success'); 	    
-
-});
-
-}
-
-//post(); 
+		config = require(path.join(__dirname, 'config.js'));
+		
 
 
-var ontime = require('ontime')
-
-ontime({
-    cycle: '5:00:00'
-}, function (ot) {
-    // do your job here
-
-post();
-console.log('Hi'); 
-ot.done()
-    return
-})
+	var bot = new Twit(config);
 
 
-//setInterval(post, 10000);
 
-/*setInterval(function() {
-T.post('statuses/update', { status: bot }, function(err, data, response) {
+	/*
 
-console.log('success'); 	    
+	The tweet to be posted.
 
-});
+	You can replace this with your own tweet.  
 
- }*/ 
+	*/
+
+	var tweet = ['12:22 AM']; 
 
 
- 
+	var post = function () {
 
-/*setInterval(
-T.post('statuses/update', { status: '....' }, function(err, data, response) {
+	T.post('statuses/update', { status: bot }, function(err, data, response) {
 
-	console.log(data); 
-});
+	console.log('successfully updated'); 	    
 
-}
-  //post_tweet (),  
-  10000
-);*/ 
+	});
+
+	}
+
+
+
+
+	var ontime = require('ontime');
+
+	ontime({
+
+	/*
+
+	Schedule the time to post the tweet. 
+
+	The current time is currently 12:22 AM. 
+
+	*/ 
+		
+		cycle: '12:22:00'
+	}, function (ot) {
+	  
+	post();
+
+	ot.done()
+		return
+	})
+

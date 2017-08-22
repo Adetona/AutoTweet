@@ -1,15 +1,16 @@
 {
   "name": "autotweet",
   "version": "0.0.1",
-  "description": "A bot for my Twitter account(@adetona77",
+  "description": "A Twitter bot for scheduling tweets",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    
     "start": "node server.js"
   },
   "author": "Abiodun Adetona",
   "license": "ISC",
   "dependencies": {
-    "twit": "^2.2.9"
+    "twit": "^2.2.9",
+	 "micro": "latest"
   }
 }
