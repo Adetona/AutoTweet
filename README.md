@@ -95,8 +95,7 @@ a bot so turn off the web  and turn `ON` the worker instead. Your bot won't work
 
 The final process must look like this: 
 
-[[https://github.com/Adetona/AutoTweet/blob/master/autotweet.png]]
-
+<img src="https://github.com/Adetona/AutoTweet/blob/master/autotweet.png"/>
 
 
 
