@@ -29,13 +29,13 @@ AutoTweet is a Twitter bot that helps with tweeting at a scheduled time.
 
 <p> <li>Open  <code> config.js </code> file. You will find the following in the file: </p> 
 
-``` consumer_key:         '65EmpGTOKXXkjHR9tI5Jiio01',</br> 
+`` consumer_key:         '65EmpGTOKXXkjHR9tI5Jiio01',</br> 
 
  consumer_secret:     'FZ0lYU5dUJA4YTuqPtZ4q5NfXLbXFuz4E9xgA49ij6Tc8YAcol', </br> 
 
  access_token:         '2963547257-9N7VF9O9gLjQQTtJhRVjk8chJQivg0zTMV2dy9E', </br> 
 
- access_token_secret:  'QMnRuSd0zbh3HbZ09wcVUohOEAol5W6HrABPyNF0gf0fY'```
+ access_token_secret:  'QMnRuSd0zbh3HbZ09wcVUohOEAol5W6HrABPyNF0gf0fY'``
 
  
 
