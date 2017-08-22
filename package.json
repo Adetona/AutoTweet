@@ -1,16 +1,15 @@
 {
   "name": "autotweet",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A Twitter bot for scheduling tweets",
   "main": "server.js",
   "scripts": {
-    
     "start": "node server.js"
   },
   "author": "Abiodun Adetona",
   "license": "ISC",
   "dependencies": {
     "twit": "^2.2.9",
-	 "micro": "latest"
+    "micro": "latest"
   }
 }
