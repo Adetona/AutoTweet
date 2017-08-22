@@ -76,15 +76,15 @@ If you want the script to be running continuosly you have to move it to a server
 Provided you have an Heroku account and <a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku CLI</a> installed on your machine you can
 easily deploy AutoTweet to heroku. 
 
-<p> <li>`npm install autotweet` to download the script. </li> </p>
+<p> <li><code>npm install autotweet</code> to download the script. </li> </p>
 
-<p> <li> `Heroku create <name of your app>` to create the name for the app on heroku</li> </p> 
-
-
-<p> <li> `git add .` and `git commit -m 'initial commit'` to stage the file for deploying. </li> </p> 
+<p> <li> <code>Heroku create <name of your app></code> to create the name for the app on heroku</li> </p> 
 
 
-<p><li> Now you can push the whole project to the heroku by running `git push heroku master`</li> </p>
+<p> <li> <code>git add .</code> and <code>git commit -m 'initial commit'</code> to stage the file for deploying. </li> </p> 
+
+
+<p><li> Now you can push the whole project to the heroku by running <code>git push heroku master</code></li> </p>
 
 
 Now that you've pushed the project to heroku there's one more thing to check. 
@@ -93,7 +93,9 @@ Go to your heroku dashboard and click on your app name. You will see some set of
 configure dynos. You will have two options -- `Web and Worker`. The web part means that the app is a web service but our app is
 a bot so turn off the web  and turn `ON` the worker instead. Your bot won't work without completing this process.
 
-The final process will look like this: 
+The final process must look like this: 
+
+[[https://github.com/Adetona/AutoTweet/blob/master/autotweet.png]]
 
 
 
