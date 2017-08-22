@@ -29,14 +29,13 @@ AutoTweet is a Twitter bot that helps with tweeting at a scheduled time.
 
 <p> <li>Open the <code> config.js </code> file. You will find the following in the file: </p> 
 
-<code> 
-consumer_key:         '65EmpGTOKXXkjHR9tI5Jiio01',</br>
+<code> consumer_key:         '65EmpGTOKXXkjHR9tI5Jiio01',</br> </code>
 
-consumer_secret:     'FZ0lYU5dUJA4YTuqPtZ4q5NfXLbXFuz4E9xgA49ij6Tc8YAcol', </br>
+<code> consumer_secret:     'FZ0lYU5dUJA4YTuqPtZ4q5NfXLbXFuz4E9xgA49ij6Tc8YAcol', </br> </code>
 
-access_token:         '2963547257-9N7VF9O9gLjQQTtJhRVjk8chJQivg0zTMV2dy9E', </br> 
+<code> access_token:         '2963547257-9N7VF9O9gLjQQTtJhRVjk8chJQivg0zTMV2dy9E', </br> </code>
 
-access_token_secret:  'QMnRuSd0zbh3HbZ09wcVUohOEAol5W6HrABPyNF0gf0fY'
+<code> access_token_secret:  'QMnRuSd0zbh3HbZ09wcVUohOEAol5W6HrABPyNF0gf0fY' </code> 
 
 </code>  
 
@@ -67,7 +66,7 @@ Learn more about setting the right time <a href="https://www.npmjs.com/package/o
 <li> After the configuration you should  <code> cd </code>  to the directory where the script is located then type <code> node server.js <code> in your terminal. </li>
 
 
-If your configuration is complete a tweet will be posted on your account at the scheduled time.
+<p> If your configuration is complete a tweet will be posted on your account at the scheduled time. </p> 
 
 
 
