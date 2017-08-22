@@ -7,19 +7,19 @@ AutoTweet is a Twitter bot that helps with tweeting at a scheduled time.
 
 <h1> Quick start </h1>
 
-<b> Tools needed to set up AutoTweet: </b> 
+<p><h3> Tools needed to set up AutoTweet: </h3> </p>
 
 
-<li> <a href="https://nodejs.org/en/">Node.js</a>  installed on your machine. </li>
+<p><li> <a href="https://nodejs.org/en/">Node.js</a>  installed on your machine. </li></p>
 
-<li> A registered Twitter account. </li> 
+<p><li> A registered Twitter account. </li> </p>
 
-<li> A Twitter App - Create one for your Twitter account <a href="https://apps.twitter.com/app/new"> here </a> </li> 
+<p><li> A Twitter App - Create one for your Twitter account <a href="https://apps.twitter.com/app/new"> here </a> </li></p> 
 
 
 <p><i> Note: The following processes below assumes you have set up all the tools above</i> </p>   
    
-<h3> Setting up on your local machine. </h3> 
+<p><h3> Setting up on your local machine. </h3> </p> 
 
 
 
@@ -63,10 +63,10 @@ Change the values to the keys to your own. </li>
 
 <h3> Test the script. </h3>
 
-<li> After the configuration, you should  <code> cd </code>  to the directory where the script is located, then type <code> node server.js </code> in your terminal and run it </li>
+<p><li> After the configuration, you should  <code> cd </code>  to the directory where the script is located, then type <code> node server.js </code> in your terminal and run it </li></p>
 
 
-<p> If your configuration is complete a tweet will be posted on your account at the scheduled time. </p> 
+<p> If your configuration is complete the  tweet will be posted on your account at the scheduled time. </p> 
 
 
 
