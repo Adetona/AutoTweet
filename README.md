@@ -25,7 +25,7 @@ AutoTweet is a Twitter bot that helps with tweeting at a scheduled time.
 
 <p> <li> Open your Terminal, <code> cd </code> to the directory where you want to install the script.</li> </p>
 
-<p><li> <code> git clone https://github.com/Adetona/AutoTweet.git </code> to download the script to your machine.</li> </p>
+<p><li> <code> git clone https://github.com/Adetona/AutoTweet.git </code> to download the script to your machine Or simply run <code>npm install autotweet</code> to install via npm </li> </p>
 
 <p> <li>Open the <code> config.js </code> file. You will find the following in the file: </p> 
 
