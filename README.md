@@ -40,7 +40,7 @@ AutoTweet is a Twitter bot that helps with tweeting at a scheduled time.
  
 
 
-Change the values to the keys to your own. </li> 
+Change the hash values to those provided to you by  the Twitter app. </li> 
 
 
 <h3> Scheduling your tweet. </h3> 
@@ -69,7 +69,52 @@ Change the values to the keys to your own. </li>
 <p> If your configuration is complete the  tweet will be posted on your account at the scheduled time. </p> 
 
 
+### Deploying to Heroku 
 
+If you want the script to be running continuosly you have to move it to a server. 
+
+Provided you have an Heroku account and <a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku CLI</a> installed on your machine you can
+easily deploy AutoTweet to heroku. 
+
+<p> <li>`npm install autotweet` to download the script. </li> </p>
+
+<p> <li> `Heroku create <name of your app>` to create the name for the app on heroku</li> </p> 
+
+
+<p> <li> `git add .` and `git commit -m 'initial commit'` to stage the file for deploying. </li> </p> 
+
+
+<p><li> Now you can push the whole project to the heroku by running `git push heroku master`</li> </p>
+
+
+Now that you've pushed the project to heroku there's one more thing to check. 
+
+Go to your heroku dashboard and click on your app name. You will see some set of tabs, click on `Overview` then go to
+configure dynos. You will have two options -- `Web and Worker`. The web part means that the app is a web service but our app is
+a bot so turn off the web  and turn `ON` the worker instead. Your bot won't work without completing this process.
+
+The final process will look like this: 
+
+
+
+
+
+
+
+Congratulations, you did it!
+
+
+
+You can get in touch with me via my twitter handle <a href="https://twitter.com/Adetona77"> @adetona77 </a>
+
+
+
+
+
+
+
+
+   
 
 
 
