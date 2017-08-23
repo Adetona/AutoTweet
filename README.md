@@ -66,7 +66,7 @@ Change the hash values to those provided to you by  the Twitter app. </li>
 <p><li> After the configuration, you should  <code> cd </code>  to the directory where the script is located, then type <code> node server.js </code> in your terminal and run it </li></p>
 
 
-<p> If your configuration is complete the  tweet will be posted on your account at the scheduled time. </p> 
+<p> If your configuration is complete the  tweet will be posted to your account at the scheduled time. </p> 
 
 
 ### Deploying to Heroku 
